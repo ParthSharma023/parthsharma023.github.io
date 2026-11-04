@@ -1,0 +1,26 @@
+---
+layout: archive
+title: "Projects"
+permalink: /portfolio/
+author_profile: true
+redirect_from:
+  - /publications/
+---
+
+{% include base_path %}
+
+{% assign groups = "Healthcare,Infrastructure" | split: "," %}
+{% assign projects = site.portfolio | sort: "order" %}
+{% for group in groups %}
+  <h2 class="archive__subtitle">{{ group }}</h2>
+  {% for post in projects %}
+    {% if post.group == group %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+<h2 class="archive__subtitle" id="research">Research &amp; presentations</h2>
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
