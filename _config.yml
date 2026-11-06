@@ -13,8 +13,7 @@ title                    : "Parth Sharma"
 title_separator          : "-"
 name                     : &name "Parth Sharma"
 description              : &description "Parth Sharma is a software team lead in Houston, building data systems for the City of Houston's wastewater utility and AI tools for healthcare."
-url                      : https://parthsharma023.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://parthsharma.dev
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ParthSharma023/parthsharma023.github.io"
 
